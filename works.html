@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>作品展厅｜【郑先仁】</title>
+<meta name="description" content="毛笔成品、笔杆刻字、篆刻印章、书画作品展示">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+    --bg:#F7F3EB;
+    --text:#222;
+    --title:#111;
+    --green:#4A6B5C;
+    --red:#A83232;
+    --border:#D8D0C4;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{
+    background:var(--bg);
+    color:var(--text);
+    font-family:"Noto Serif SC",serif;
+    line-height:1.8;
+}
+.container{max-width:1100px;margin:0 auto;padding:0 20px;}
+header{
+    background:rgba(0,0,0,0.45);
+    color:#fff;
+    padding:80px 20px 50px;
+    text-align:center;
+    background-image:url("images/workshop.jpg");
+    background-size:cover;
+    background-position:center;
+}
+header h1{font-size:2.2rem;margin-bottom:8px;}
+nav{background:#fff9f0;border-bottom:1px solid var(--border);}
+.nav-wrap{display:flex;gap:2rem;flex-wrap:wrap;justify-content:center;padding:14px;}
+nav a{color:var(--text);text-decoration:none;transition:0.2s;}
+nav a:hover{color:var(--green);}
+nav a.active{color:var(--green);font-weight:600;}
+section{padding:60px 0;}
+h2{font-size:1.8rem;color:var(--title);margin-bottom:24px;border-left:4px solid var(--green);padding-left:12px;}
+.filter-tag{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:30px;}
+.tag{padding:6px 16px;border:1px solid var(--border);border-radius:30px;background:#fff;cursor:default;}
+.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:24px;}
+.work-card{background:#fff;border:1px solid var(--border);border-radius:6px;overflow:hidden;}
+.work-img{height:220px;background:#eee;display:flex;align-items:center;justify-content:center;color:#777;}
+.work-desc{padding:14px;}
+footer{text-align:center;padding:30px;background:#eee;font-size:0.9rem;margin-top:40px;}
+@media(max-width:768px){
+    header h1{font-size:1.6rem;}
+    .nav-wrap{gap:1rem;}
+}
+</style>
+</head>
+<body>
+<header>
+    <div class="container">
+        <h1>作品展厅</h1>
+        <p>毛笔｜笔杆刻字｜篆刻｜书画</p>
+    </div>
+</header>
+<nav>
+    <div class="nav-wrap">
+        <a href="index.html">首页</a>
+        <a href="about.html">关于我</a>
+        <a href="craft.html">非遗技艺</a>
+        <a href="works.html" class="active">作品展厅</a>
+        <a href="honor.html">荣誉履历</a>
+        <a href="essay.html">随笔文录</a>
+        <a href="contact.html">联系来访</a>
+    </div>
+</nav>
+<main class="container">
+<section>
+    <div class="filter-tag">
+        <span class="tag">全部</span>
+        <span class="tag">毛笔成品</span>
+        <span class="tag">笔杆刻字</span>
+        <span class="tag">篆刻印章</span>
+        <span class="tag">书画作品</span>
+    </div>
+    <div class="gallery">
+        <div class="work-card">
+            <div class="work-img">[图片占位：竹杆刻字毛笔]</div>
+            <div class="work-desc">
+                <strong>竹杆刻字毛笔</strong>
+                <p>竹杆刻晏殊词句，狼毫楷书笔</p>
+            </div>
+        </div>
+        <div class="work-card">
+            <div class="work-img">[图片占位：老木杆兼毫毛笔]</div>
+            <div class="work-desc">
+                <strong>老木杆兼毫毛笔</strong>
+                <p>古法手工制作，行书写意适用</p>
+            </div>
+        </div>
+        <div class="work-card">
+            <div class="work-img">[图片占位：守拙朱文闲章]</div>
+            <div class="work-desc">
+                <strong>闲章篆刻｜守拙</strong>
+                <p>朱文闲章，文房配套印章</p>
+            </div>
+        </div>
+        <div class="work-card">
+            <div class="work-img">[图片占位：浣溪沙书法条幅]</div>
+            <div class="work-desc">
+                <strong>书法｜晏殊浣溪沙</strong>
+                <p>纸本行书条幅</p>
+            </div>
+        </div>
+        <div class="work-card">
+            <div class="work-img">[图片占位：水墨花鸟]</div>
+            <div class="work-desc">
+                <strong>国画花鸟</strong>
+                <p>纸本水墨小品</p>
+            </div>
+        </div>
+        <div class="work-card">
+            <div class="work-img">[图片占位：定制姓名印章]</div>
+            <div class="work-desc">
+                <strong>姓名私章</strong>
+                <p>白文篆刻，实用收藏</p>
+            </div>
+        </div>
+    </div>
+    <p style="margin-top:32px;">可定制毛笔、笔杆刻字、篆刻印章，欢迎前往联系来访咨询。</p>
+</section>
+</main>
+<footer>
+©2026 【郑先仁】｜非遗毛笔传承人｜江西·晏殊故里·毛笔之都
+</footer>
+</body>
+</html>
